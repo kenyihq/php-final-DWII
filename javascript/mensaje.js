@@ -18,7 +18,6 @@ for (let i = 0; i < msj.length; i++) {
 
 // Validar contraseña
 
-
 function validar(e_fin) {
     if(confirm("Para ingresar al modo administrador, tendrá que validar sus credenciales")) {
         return true;
@@ -33,3 +32,16 @@ for (let i = 0; i < val.length; i++) {
     val[i].addEventListener('click', validar);
     console.log(i);
 }
+
+const singin = document.querySelector('#save');
+
+singin.addEventListener('click', save);
+function save(){
+    if(confirm("¿Estas seguro que deseas guardar?")) {
+        return true;
+    } else {
+        e_fin.preventDefault();
+    }
+}
+
+

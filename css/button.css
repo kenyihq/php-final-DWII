@@ -12,8 +12,50 @@
     text-decoration: none;
     text-align: center;
 }
+.button-delete:hover {
+    opacity: 0.5;
+}
 
-.button:hover {
+button .button:hover {
+    opacity: 0.5;
+}
+
+.table__item-edit {
+    background: rgb(241, 241, 105);
+    font: var(--button);
+    color: black;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    padding-block-start: 4px;
+    padding-block-end: 4px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px;
+}
+
+.table__item-edit:hover {
+    opacity: 0.5;
+}
+
+.table__item-delete {
+    background: rgb(255, 83, 83);
+    color: var(--white);
+    font: var(--button);
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    padding-block-start: 4px;
+    padding-block-end: 4px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.table__item-delete:hover {
     opacity: 0.5;
 }
 
@@ -21,8 +63,8 @@
     /* background: var(--purple); */
     color: var(--purple);
     font: var(--button);
-    padding-inline-start: 24px;
-    padding-inline-end: 24px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
     padding-block-start: 10px;
     padding-block-end: 10px;
     border-radius: 8px;
@@ -30,10 +72,15 @@
     border: 3px solid var(--purple);
     text-decoration: none;
     text-align: center;
-    width: 15%;
+    max-width: 200px;
     margin: auto;
 }
 
 .button2 a {
     text-decoration: none;
+}
+
+.container-table .button2{
+    margin-top: 60px;
+    width: 90%;
 }

@@ -27,8 +27,9 @@
 
     if($resultado){
         // echo "<script>alert('REGISTRO EXITOSO') ;window.location='../vistas/interfaz.php'</script>";
-        echo '<script>alert("Agregado con exito")</script>';
-        header("location:../vistas/interfaz.php");
+        echo "<script>window.location='../vistas/interfaz.php'</script>";
+        // echo '<script>alert("Agregado con exito")</script>';
+        // header("location:../vistas/interfaz.php");
     }
     else{
         #echo "<script>alert('gettype($last_id)');window.history.go(-1);</script>";

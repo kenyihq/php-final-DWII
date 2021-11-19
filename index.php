@@ -8,17 +8,11 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <div class="container">
-        <form class="form" action="./conexion/loggin.php" method="POST">
-            <h2 class="title">Iniciar sesion</h2>
-            <input type="text" name="usuario" placeholder="Usuario" required>
-            <input type="password" name="password" id="" placeholder="Contraseña" required>
-            <button class="button" type="submit">Iniciar sesion</button>
-        </form>
-        <a href="">Registrarse</a>
-    </div>
-    <center>
-    </center>
-    
+    <form class="form" action="./conexion/loggin.php" method="POST">
+        <h2 class="title">Iniciar sesion</h2>
+        <input type="text" name="usuario" placeholder="Usuario" required>
+        <input type="password" name="password" id="" placeholder="Contraseña" required>
+        <button class="button" id="singin" type="submit">Iniciar sesion</button>
+    </form>    
 </body>
 </html>
