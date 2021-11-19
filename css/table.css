@@ -1,0 +1,26 @@
+.table__title{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background: var(--purple);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+.table__header{
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.table__item{
+    font-size: 1em;
+    padding: 10px;
+}
+.table__header, .table__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

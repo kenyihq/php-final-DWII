@@ -1,0 +1,46 @@
+.container-table{
+    width: 90%;
+    background: var(--green);
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.431);
+    
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-auto-rows: 50px;
+
+}
+/*INSERTAR */
+
+.container-add{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.container__title{
+    margin: 0;
+    padding: 10px;
+    background: var(--green);
+    font-size: 1em;
+    text-align: center;
+}
+
+.container__form{
+    background: white;
+    box-shadow: 0 0 20px #333;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.contaniner__label{
+    font-size: 1.3em;
+    width: 30%;
+}
+.container__input{
+    color: var(--green);
+    width: 25%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+    padding: 2px;
+}
