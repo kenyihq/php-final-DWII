@@ -1,11 +1,12 @@
+@import url('./button.css');
 @import url('./container.css');
 @import url('./form.css');
 @import url('./table.css');
-@import url('./button.css');
 
 :root {
     --fontBase : 'Poppins', sans-serif;
     --body1 : 16px/25px var(--fontBase);
+    --mobile : 12px/20px var(--fontBase);
     --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
     --purple : #310A90;
     --green : #42E2B8;

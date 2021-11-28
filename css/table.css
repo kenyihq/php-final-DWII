@@ -25,3 +25,29 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 830px) {
+    .table__title {
+        font-size: var(--mobile);
+    }
+
+    .table__header {
+        font-size: var(--mobile);
+    }
+
+    .table__item {
+        font-size: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0;
+    }
+    .table__item .table__item-delete {
+        padding: 1px;
+        margin: 1px;
+    }
+    .table__item .table__item-edit {
+        padding: 1px;
+        margin: 1px;
+    }
+}

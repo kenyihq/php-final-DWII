@@ -17,24 +17,9 @@
     font-size: 16px;
     text-align: center;
 }
-/* 
-.container__form{
-    background: white;
-    box-shadow: 0 0 20px #333;
-    padding: 50px;
-    display: flex;
-    flex-wrap: wrap;
 
+@media screen and (max-width: 830px) {
+    .container-table {
+        width: 100%;
+    }
 }
-.contaniner__label{
-    font-size: 1.3em;
-    width: 30%;
-}
-.container__input{
-    color: var(--green);
-    width: 25%;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    font-size: 0.8em;
-    padding: 2px;
-} */
